@@ -7,7 +7,7 @@ export const corta_vento: Product[] = [
     name: "Corta Vento",  // Nome sem tamanho
     price: 60.00,
     images: [
-      "/images/conjuntos/corta_vento/cores.jpeg",
+      "/images/corta_vento/cores.jpeg",
       
     ],
     category: "Corta Vento",

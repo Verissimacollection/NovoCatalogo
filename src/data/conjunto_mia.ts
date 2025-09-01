@@ -7,8 +7,8 @@ export const conjunto_mia: Product[] = [
     name: "Conjunto Mia ",  // Nome sem tamanho
     price: 60.00,
     images: [
-      "/images/conjunto/conjunto_mia/azulbebe.jpeg",
-      "/images/conjunto/conjunto_mia/cores.jpeg",
+      "/images/conjuntos/conjunto_mia/azulbebe.jpeg",
+      "/images/conjuntos/conjunto_mia/cores.jpeg",
     ],
     category: "Conjuntos",
     description: "Conjunto Mia disponível em múltiplos tamanhos",
