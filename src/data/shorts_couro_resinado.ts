@@ -7,7 +7,7 @@ export const shorts_couro_resinado: Product[] = [
     name: "Shorts Couro Resinada",  // Nome sem tamanho
     price: 65.00,
     images: [
-      "/images/shorts/shorts_couro_resinado/cores.jpeg",
+      "/images/shorts/short_couro_resinado/cores.jpeg",
       
     ],
     category: "Shorts",
