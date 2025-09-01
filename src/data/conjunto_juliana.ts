@@ -7,8 +7,8 @@ export const conjunto_juliana: Product[] = [
     name: "Conjunto Juliana",  // Nome sem tamanho
     price: 60.00,
     images: [
-      "/images/conjuntos/juliana/branco.jpeg",
-      "/images/conjuntos/juliana/cores.jpeg",
+      "/images/conjuntos/conjunto_juliana/branco.jpeg",
+      "/images/conjuntos/conjunto_juliana/cores.jpeg",
     ],
     category: "Conjuntos",
     description: "Conjunto Bia disponível em múltiplos tamanhos",
