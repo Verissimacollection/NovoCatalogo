@@ -1,18 +1,18 @@
 import { Product } from "@/interfaces/Product";
 
 // Exemplo de como estruturar produtos com múltiplos tamanhos
-export const macacao: Product[] = [
+export const macacao_mariana: Product[] = [
   {
-    id: 1000,
-    name: "Macacão",  // Nome sem tamanho
+    id: 1001,
+    name: "Macacão ",  // Nome sem tamanho
     price: 60.00,
     images: [
-      "/images/macacao/verde.jpeg",
-      "/images/macacao/cores.jpeg",
+      "/images/macacao_mariana/preto.jpeg",
+      "/images/macacao_mariana/cores.jpeg",
     ],
     category: "Macacão",
     description: "Macacão disponível em múltiplos tamanhos",
-    sku: "1525",
+    sku: "1521",
     inStock: true,
     colors: [
       { color: "Marrom", inStock: true },
