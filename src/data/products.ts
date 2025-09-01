@@ -14,6 +14,7 @@ import { saia_couro_resinada } from "./saia_couro_resinada_elastano";
 import { shorts_couro_resinado } from "./shorts_couro_resinado";
 import { conjunto_vivian } from "./conjunto_vivian";
 import { conjunto_gabriela } from "./conjunto_gabriela";
+import { regata_cetim } from "./regata_importada_cetim";
 
 
 
@@ -33,6 +34,7 @@ export const products: Product[] = [
   ...conjunto_gabriela,
   ...conjunto_maisa,
   ...conjunto_bea,
+  ...regata_cetim,
   ...macacao,
   ...macacao_mariana,
   ...corta_vento,
