@@ -11,7 +11,7 @@ export const conjunto_juliana: Product[] = [
       "/images/conjuntos/conjunto_juliana/cores.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Bia disponível em múltiplos tamanhos",
+    description: "Conjunto Juliana disponível em múltiplos tamanhos",
     sku: "1463",
     inStock: true,
     colors: [
