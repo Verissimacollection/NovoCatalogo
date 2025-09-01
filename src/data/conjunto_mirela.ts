@@ -8,6 +8,10 @@ export const conjunto_mirela: Product[] = [
     price: 60.00,
     images: [
       "/images/conjuntos/conjunto_mirela/areia.jpeg",
+      "/images/conjuntos/conjunto_mirela/azulbebe.jpeg",
+       "/images/conjuntos/conjunto_mirela/branco.jpeg",
+        "/images/conjuntos/conjunto_mirela/verde.jpeg",
+         "/images/conjuntos/conjunto_mirela/marinho.jpeg",
       "/images/conjuntos/conjunto_mirela/cores.jpeg",
     ],
     category: "Conjuntos",
