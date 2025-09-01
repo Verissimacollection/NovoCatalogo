@@ -7,7 +7,8 @@ import {conjunto_juliana} from "./conjunto_juliana"
 import { macacao_mariana } from "./macacao_mariana";
 import { conjunto_maisa } from "./conjunto_maisa";
 import { corta_vento } from "./corta_vento";
-
+import { conjunto_bea } from "./conjunto_bea";
+import { conjunto_mia } from "./conjunto_mia";
 
 
 
@@ -21,8 +22,10 @@ import { corta_vento } from "./corta_vento";
 export const products: Product[] = [
   ...conjunto_bia,
   ...conjunto_mirela,
+  ...conjunto_mia,
   ...conjunto_juliana,
   ...conjunto_maisa,
+  ...conjunto_bea,
   ...macacao,
   ...macacao_mariana,
   ...corta_vento,
