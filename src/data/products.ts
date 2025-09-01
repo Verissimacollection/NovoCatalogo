@@ -3,6 +3,7 @@ import { Product } from "@/interfaces/Product";
 import { conjunto_bia } from "./conjunto_bia";
 import { conjunto_mirela} from "./conjunto_mirela"
 import {macacao} from "./macacao"
+import {conjunto_juliana} from "./conjunto_juliana"
 
 
 
@@ -17,5 +18,6 @@ import {macacao} from "./macacao"
 export const products: Product[] = [
   ...conjunto_bia,
   ...conjunto_mirela,
+  ...conjunto_juliana
   ...macacao,
 ];
