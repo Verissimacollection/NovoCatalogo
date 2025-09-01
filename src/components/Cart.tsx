@@ -109,7 +109,7 @@ const Cart = () => {
 
     message += "\n📞 Gostaria de finalizar este pedido!\nObrigado 😊";
 
-    const phoneNumber = "5511947469227";
+    const phoneNumber = "5511987962867";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, '_blank');
     setIsOpen(false);
