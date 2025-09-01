@@ -7,8 +7,8 @@ export const macacao_mariana: Product[] = [
     name: "Macacão ",  // Nome sem tamanho
     price: 60.00,
     images: [
-      "/images/macacao_mariana/preto.jpeg",
-      "/images/macacao_mariana/cores.jpeg",
+      "/images/macacao/macacao_mariana/preto.jpeg",
+      "/images/macacao/macacao_mariana/cores.jpeg",
     ],
     category: "Macacão",
     description: "Macacão disponível em múltiplos tamanhos",
