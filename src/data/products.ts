@@ -10,6 +10,8 @@ import { corta_vento } from "./corta_vento";
 import { conjunto_bea } from "./conjunto_bea";
 import { conjunto_mia } from "./conjunto_mia";
 import { vestido_helen } from "./vestido_helen";
+import { saia_couro_resinada } from "./saia_couro_resinada_elastano";
+import { shorts_couro_resinado } from "./shorts_couro_resinado";
 
 
 
@@ -30,5 +32,7 @@ export const products: Product[] = [
   ...macacao,
   ...macacao_mariana,
   ...corta_vento,
-  ...vestido_helen
+  ...vestido_helen,
+  ...saia_couro_resinada,
+  ...shorts_couro_resinado
 ];

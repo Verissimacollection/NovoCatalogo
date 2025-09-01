@@ -19,7 +19,7 @@ export const conjunto_mia: Product[] = [
       { color: "Preto", inStock: true },
       { color: "Rosa Bebe", inStock: true },
       { color: "Azul Bebe", inStock: true },
-      { color: "Beje", inStock: true },
+      { color: "Bege", inStock: true },
     ],
     sizes: [
       { size: "P", inStock: true },

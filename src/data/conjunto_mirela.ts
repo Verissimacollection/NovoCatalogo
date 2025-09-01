@@ -19,7 +19,7 @@ export const conjunto_mirela: Product[] = [
     sku: "2217",
     inStock: true,
     colors: [
-      { color: "Beje", inStock: true },
+      { color: "Bege", inStock: true },
       { color: "Azul Bebe", inStock: true },
       { color: "Branco", inStock: true },
       { color: "Marinho", inStock: true },

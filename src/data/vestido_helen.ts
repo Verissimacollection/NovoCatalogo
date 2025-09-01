@@ -5,7 +5,7 @@ export const vestido_helen: Product[] = [
     {
         id: 300,
         name: "Vestido Helen",  // Nome sem tamanho
-        price: 60.00,
+        price: 130.00,
         images: [
             "/images/vestidos/vestido_helen/branco.jpeg",
             "/images/vestidos/vestido_helen/cores.jpeg",
@@ -20,7 +20,7 @@ export const vestido_helen: Product[] = [
             { color: "Preto", inStock: true },
             { color: "Verde", inStock: true },
             { color: "Coral", inStock: true },
-            { color: "Beje", inStock: true },
+            { color: "Bege", inStock: true },
         ],
         sizes: [
             { size: "P", inStock: true },

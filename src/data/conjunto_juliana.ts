@@ -17,7 +17,7 @@ export const conjunto_juliana: Product[] = [
     colors: [
       { color: "Branco", inStock: true },
       { color: "Azul Bebe", inStock: true },
-      { color: "Beje", inStock: true },
+      { color: "Bege", inStock: true },
       { color: "Preto", inStock: true },
       
     ],

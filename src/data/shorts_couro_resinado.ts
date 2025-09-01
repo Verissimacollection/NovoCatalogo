@@ -1,30 +1,30 @@
 import { Product } from "@/interfaces/Product";
 
 // Exemplo de como estruturar produtos com múltiplos tamanhos
-export const corta_vento: Product[] = [
+export const shorts_couro_resinado: Product[] = [
   {
-    id: 200,
-    name: "Corta Vento",  // Nome sem tamanho
-    price: 60.00,
+    id: 300,
+    name: "Shorts Couro Resinada",  // Nome sem tamanho
+    price: 65.00,
     images: [
-      "/images/corta_vento/cores.jpeg",
+      "/images/shorts/shorts_couro_resinado/cores.jpeg",
       
     ],
-    category: "Corta Vento",
-    description: "Corta Vento disponível em múltiplos tamanhos",
-    sku: "SD156",
+    category: "Shorts",
+    description: "Shorts Couro Resinada R$80,00 Varejo R$65,00 Atacado ",
+    sku: "2507",
     inStock: true,
     colors: [
       { color: "Preto", inStock: true },
-      { color: "Branco", inStock: true },
       { color: "Marrom", inStock: true },
       { color: "Bege", inStock: true },
+      { color: "Bege Escuro", inStock: true },
       
     ],
     sizes: [
       { size: "P", inStock: true },
       { size: "M", inStock: true },
-      { size: "G", inStock: true }
+      { size: "G", inStock: true },
     ]
   },
 
