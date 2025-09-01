@@ -9,9 +9,9 @@ export const conjunto_mirela: Product[] = [
     images: [
       "/images/conjuntos/conjunto_mirela/areia.jpeg",
       "/images/conjuntos/conjunto_mirela/azulbebe.jpeg",
-       "/images/conjuntos/conjunto_mirela/branco.jpeg",
-        "/images/conjuntos/conjunto_mirela/verde.jpeg",
-         "/images/conjuntos/conjunto_mirela/marinho.jpeg",
+      "/images/conjuntos/conjunto_mirela/branco.jpeg",
+      "/images/conjuntos/conjunto_mirela/verde.jpeg",
+      "/images/conjuntos/conjunto_mirela/marinho.jpeg",
       "/images/conjuntos/conjunto_mirela/cores.jpeg",
     ],
     category: "Conjuntos",
@@ -24,7 +24,7 @@ export const conjunto_mirela: Product[] = [
       { color: "Branco", inStock: true },
       { color: "Marinho", inStock: true },
       { color: "Verde", inStock: true },
-      
+
     ],
     sizes: [
       { size: "P", inStock: true },
@@ -32,5 +32,5 @@ export const conjunto_mirela: Product[] = [
       { size: "G", inStock: true }
     ]
   },
-   
+
 ];
