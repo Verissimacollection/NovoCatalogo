@@ -9,6 +9,7 @@ import { conjunto_maisa } from "./conjunto_maisa";
 import { corta_vento } from "./corta_vento";
 import { conjunto_bea } from "./conjunto_bea";
 import { conjunto_mia } from "./conjunto_mia";
+import { vestido_helen } from "./vestido_helen";
 
 
 
@@ -29,4 +30,5 @@ export const products: Product[] = [
   ...macacao,
   ...macacao_mariana,
   ...corta_vento,
+  ...vestido_helen
 ];

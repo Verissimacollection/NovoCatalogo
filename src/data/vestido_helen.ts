@@ -1,24 +1,24 @@
 import { Product } from "@/interfaces/Product";
 
 // Exemplo de como estruturar produtos com múltiplos tamanhos
-export const conjunto_mia: Product[] = [
+export const vestido_helen: Product[] = [
   {
-    id: 4,
-    name: "Conjunto Mia ",  // Nome sem tamanho
+    id: 300,
+    name: "Vestido Helen",  // Nome sem tamanho
     price: 60.00,
     images: [
-      "/images/conjuntos/conjunto_mia/azulbebe.jpeg",
-      "/images/conjuntos/conjunto_mia/cores.jpeg",
+      "/images/vestidos/vestido_helen/cores.jpeg",
+      
     ],
-    category: "Conjuntos",
-    description: "Conjunto Mia disponível em múltiplos tamanhos",
-    sku: "2213",
+    category: "Vestido",
+    description: "Vestido Helen disponível em múltiplos tamanhos R$150,00 Varejo R$130,00 Atacado",
+    sku: "6358",
     inStock: true,
     colors: [
       { color: "Branco", inStock: true },
       { color: "Preto", inStock: true },
-      { color: "Rosa Bebe", inStock: true },
-      { color: "Azul Bebe", inStock: true },
+      { color: "Verde", inStock: true },
+      { color: "Coral", inStock: true },
       { color: "Beje", inStock: true },
     ],
     sizes: [
