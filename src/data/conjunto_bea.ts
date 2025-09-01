@@ -7,8 +7,8 @@ export const conjunto_bea: Product[] = [
     name: "Conjunto Bea ",  // Nome sem tamanho
     price: 60.00,
     images: [
-      "/images/conjunto/conjunto_bea/branco.jpeg",
-      "/images/conjunto/conjunto_bea/cores.jpeg",
+      "/images/conjuntos/conjunto_bea/branco.jpeg",
+      "/images/conjuntos/conjunto_bea/cores.jpeg",
     ],
     category: "Conjuntos",
     description: "Conjunto Bea disponível em múltiplos tamanhos",

@@ -7,8 +7,8 @@ export const conjunto_vivian: Product[] = [
     name: "Conjunto Vivian ",  // Nome sem tamanho
     price: 170.00,
     images: [
-      "/images/conjunto/conjunto_vivian/offwhite.jpeg",
-      "/images/conjunto/conjunto_vivian/cores.jpeg",
+      "/images/conjuntos/conjunto_vivian/offwhite.jpeg",
+      "/images/conjuntos/conjunto_vivian/cores.jpeg",
     ],
     category: "Conjuntos",
     description: "Conjunto Vivian 190,00 Varejo",
