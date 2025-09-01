@@ -18,6 +18,6 @@ import {conjunto_juliana} from "./conjunto_juliana"
 export const products: Product[] = [
   ...conjunto_bia,
   ...conjunto_mirela,
-  ...conjunto_juliana
+  ...conjunto_juliana,
   ...macacao,
 ];
