@@ -13,6 +13,7 @@ import { vestido_helen } from "./vestido_helen";
 import { saia_couro_resinada } from "./saia_couro_resinada_elastano";
 import { shorts_couro_resinado } from "./shorts_couro_resinado";
 import { conjunto_vivian } from "./conjunto_vivian";
+import { conjunto_gabriela } from "./conjunto_gabriela";
 
 
 
@@ -29,6 +30,7 @@ export const products: Product[] = [
   ...conjunto_mia,
   ...conjunto_juliana,
   ...conjunto_vivian,
+  ...conjunto_gabriela,
   ...conjunto_maisa,
   ...conjunto_bea,
   ...macacao,
