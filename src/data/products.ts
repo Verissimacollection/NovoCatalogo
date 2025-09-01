@@ -4,6 +4,7 @@ import { conjunto_bia } from "./conjunto_bia";
 import { conjunto_mirela} from "./conjunto_mirela"
 import {macacao} from "./macacao"
 import {conjunto_juliana} from "./conjunto_juliana"
+import { macacao_mariana } from "./macacao_mariana";
 
 
 
@@ -20,4 +21,5 @@ export const products: Product[] = [
   ...conjunto_mirela,
   ...conjunto_juliana,
   ...macacao,
+  ...macacao_mariana,
 ];
