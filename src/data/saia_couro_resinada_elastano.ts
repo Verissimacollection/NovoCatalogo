@@ -3,7 +3,7 @@ import { Product } from "@/interfaces/Product";
 // Exemplo de como estruturar produtos com múltiplos tamanhos
 export const saia_couro_resinada: Product[] = [
   {
-    id: 300,
+    id: 400,
     name: "Saia Couro Resinada",  // Nome sem tamanho
     price: 65.00,
     images: [
