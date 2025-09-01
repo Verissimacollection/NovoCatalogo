@@ -43,7 +43,7 @@ const Header = ({ onSearch }: HeaderProps) => {
               className="h-10 w-10 rounded-full object-cover"
             />
             <div>
-              <h1 className="text-xl font-bold text-gray-900">Leev Store</h1>
+              <h1 className="text-xl font-bold text-gray-900">Verissima New Collection</h1>
               <p className="text-xs text-gray-500">Moda & Estilo</p>
             </div>
           </div>

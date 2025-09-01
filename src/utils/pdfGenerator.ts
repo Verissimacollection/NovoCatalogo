@@ -55,7 +55,7 @@ export const generateOrderPDF = ({
   };
 
   // Título
-  addText('Leev Store - Resumo do Pedido', 0, y, 18, true, 'center');
+  addText('Verissima New Collection - Resumo do Pedido', 0, y, 18, true, 'center');
   y += 10;
   addLineSeparator(y);
   y += 10;
@@ -153,7 +153,7 @@ export const generateOrderPDF = ({
 
   // Rodapé
   const pageHeight = doc.internal.pageSize.height;
-  addText('Leev Store - Produtos de qualidade', marginX, pageHeight - 20, 10);
+  addText('Verissima New Collection - Produtos de qualidade', marginX, pageHeight - 20, 10);
   addText('WhatsApp: (11) 94753-7240', marginX, pageHeight - 12, 10);
 
   const fileName = `pedido-leev-${now.toISOString().split('T')[0]}-${Date.now()}.pdf`;
