@@ -39,7 +39,7 @@ const Header = ({ onSearch }: HeaderProps) => {
           <div className="flex items-center space-x-3">
             <img 
               src="/images/logo.jpg" 
-              alt="Logo Leev" 
+              alt="Logo Verissima" 
               className="h-10 w-10 rounded-full object-cover"
             />
             <div>

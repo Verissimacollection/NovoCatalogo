@@ -156,7 +156,7 @@ export const generateOrderPDF = ({
   addText('Verissima New Collection - Produtos de qualidade', marginX, pageHeight - 20, 10);
   addText('WhatsApp: (11) 94753-7240', marginX, pageHeight - 12, 10);
 
-  const fileName = `pedido-leev-${now.toISOString().split('T')[0]}-${Date.now()}.pdf`;
+  const fileName = `pedido-Verissima-${now.toISOString().split('T')[0]}-${Date.now()}.pdf`;
   doc.save(fileName);
 
   return fileName;
