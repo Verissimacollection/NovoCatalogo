@@ -19,6 +19,7 @@ import { vestido_rose } from "./vestido_rose";
 import { regata_petala } from "./regata_petala";
 import { conjunto_ana } from "./conjunto_ana";
 import { vestido_stefane } from "./vestido_stefane";
+import { conjunto_rita } from "./conjunto_rita";
 
 
 
@@ -50,4 +51,5 @@ export const products: Product[] = [
   ...shorts_couro_resinado,
   ...conjunto_ana,
   ...vestido_stefane,
+  ...conjunto_rita,
 ];
