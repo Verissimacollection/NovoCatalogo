@@ -33,6 +33,7 @@ import { vestido_dani } from "./vestido_dani";
 import { conjunto_kayla } from "./conjunto_kayla";
 import { conjunto_michely } from "./conjunto_michely";
 import { conjunto_aline } from "./conjunto_aline";
+import { conjunto_bela } from "./conjunto_bela";
 
 
 
@@ -78,4 +79,5 @@ export const products: Product[] = [
   ...conjunto_kayla,
   ...conjunto_michely,
   ...conjunto_aline,
+  ...conjunto_bela,
 ];
