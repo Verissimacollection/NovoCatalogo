@@ -23,6 +23,9 @@ import { conjunto_rita } from "./conjunto_rita";
 import { conjunto_viih } from "./conjunto_viih";
 import { conjunto_australia } from "./conjunto_australia";
 import { conjunto_tania } from "./conjunto_tania";
+import { regata_eloisa } from "./regata_eloisa";
+import { regata_estela } from "./regata_estela";
+import { conjunto_helena } from "./conjunto_helena";
 
 
 
@@ -58,4 +61,7 @@ export const products: Product[] = [
   ...conjunto_viih,
   ...conjunto_australia,
   ...conjunto_tania,
+  ...regata_eloisa,
+  ...regata_estela,
+  ...conjunto_helena,
 ];
