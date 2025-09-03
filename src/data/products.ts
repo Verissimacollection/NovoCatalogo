@@ -27,6 +27,12 @@ import { regata_eloisa } from "./regata_eloisa";
 import { regata_estela } from "./regata_estela";
 import { conjunto_helena } from "./conjunto_helena";
 import { conjunto_mary } from "./conjunto_mary";
+import { conjunto_paula } from "./conjunto_paula";
+import { macacao_rilare } from "./macacao_rilare";
+import { vestido_dani } from "./vestido_dani";
+import { conjunto_kayla } from "./conjunto_kayla";
+import { conjunto_michely } from "./conjunto_michely";
+import { conjunto_aline } from "./conjunto_aline";
 
 
 
@@ -66,4 +72,10 @@ export const products: Product[] = [
   ...regata_estela,
   ...conjunto_helena,
   ...conjunto_mary,
+  ...conjunto_paula,
+  ...macacao_rilare,
+  ...vestido_dani,
+  ...conjunto_kayla,
+  ...conjunto_michely,
+  ...conjunto_aline,
 ];
