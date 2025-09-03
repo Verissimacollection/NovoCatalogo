@@ -20,6 +20,9 @@ import { regata_petala } from "./regata_petala";
 import { conjunto_ana } from "./conjunto_ana";
 import { vestido_stefane } from "./vestido_stefane";
 import { conjunto_rita } from "./conjunto_rita";
+import { conjunto_viih } from "./conjunto_viih";
+import { conjunto_australia } from "./conjunto_australia";
+import { conjunto_tania } from "./conjunto_tania";
 
 
 
@@ -52,4 +55,7 @@ export const products: Product[] = [
   ...conjunto_ana,
   ...vestido_stefane,
   ...conjunto_rita,
+  ...conjunto_viih,
+  ...conjunto_australia,
+  ...conjunto_tania,
 ];
