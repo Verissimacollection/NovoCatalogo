@@ -26,6 +26,7 @@ import { conjunto_tania } from "./conjunto_tania";
 import { regata_eloisa } from "./regata_eloisa";
 import { regata_estela } from "./regata_estela";
 import { conjunto_helena } from "./conjunto_helena";
+import { conjunto_mary } from "./conjunto_mary";
 
 
 
@@ -64,4 +65,5 @@ export const products: Product[] = [
   ...regata_eloisa,
   ...regata_estela,
   ...conjunto_helena,
+  ...conjunto_mary,
 ];
