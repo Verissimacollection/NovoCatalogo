@@ -2,7 +2,7 @@ import { Factory } from "lucide-react";
 import { Product } from "@/interfaces/Product";
 import { conjunto_bia } from "./conjunto_bia";
 import { conjunto_mirela} from "./conjunto_mirela"
-import {macacao} from "./macacao"
+import {macacao_solange} from "./macacao_solange"
 import {conjunto_juliana} from "./conjunto_juliana"
 import { macacao_mariana } from "./macacao_mariana";
 import { conjunto_maisa } from "./conjunto_maisa";
@@ -57,7 +57,7 @@ export const products: Product[] = [
   ...regata_petala,
   ...conjunto_bea,
   ...regata_cetim,
-  ...macacao,
+  ...macacao_solange,
   ...macacao_mariana,
   ...corta_vento,
   ...vestido_helen,

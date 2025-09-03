@@ -5,7 +5,7 @@ export const conjunto_mirela: Product[] = [
   {
     id: 6,
     name: "Conjunto Mirela",  // Nome sem tamanho
-    price: 60.00,
+    price: 170.00,
     images: [
       "/images/conjuntos/conjunto_mirela/areia.jpeg",
       "/images/conjuntos/conjunto_mirela/azulbebe.jpeg",
@@ -15,7 +15,7 @@ export const conjunto_mirela: Product[] = [
       "/images/conjuntos/conjunto_mirela/cores.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Mirela disponível em múltiplos tamanhos",
+    description: "Conjunto Mirela Varejo R$190,00",
     sku: "2217",
     inStock: true,
     colors: [

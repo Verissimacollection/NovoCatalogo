@@ -4,14 +4,14 @@ import { Product } from "@/interfaces/Product";
 export const macacao_mariana: Product[] = [
   {
     id: 1001,
-    name: "Macacão ",  // Nome sem tamanho
-    price: 60.00,
+    name: "Macacão Mariana",  // Nome sem tamanho
+    price: 170.00,
     images: [
       "/images/macacao/macacao_mariana/preto.jpeg",
       "/images/macacao/macacao_mariana/cores.jpeg",
     ],
     category: "Macacão",
-    description: "Macacão disponível em múltiplos tamanhos",
+    description: "Macacão Mariana Varejo R$190,00",
     sku: "1521",
     inStock: true,
     colors: [

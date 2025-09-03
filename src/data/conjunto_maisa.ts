@@ -5,13 +5,13 @@ export const conjunto_maisa: Product[] = [
   {
     id: 9,
     name: "Conjunto Maisa",  // Nome sem tamanho
-    price: 60.00,
+    price: 120.00,
     images: [
       "/images/conjuntos/conjunto_maisa/tiffany.jpeg",
       "/images/conjuntos/conjunto_maisa/cores.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Maisa disponível em múltiplos tamanhos",
+    description: "Conjunto Maisa Varejo R$150,00",
     sku: "6236",
     inStock: true,
     colors: [
