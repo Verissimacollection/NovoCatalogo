@@ -5,13 +5,13 @@ export const corta_vento: Product[] = [
   {
     id: 200,
     name: "Corta Vento",  // Nome sem tamanho
-    price: 70.00,
+    price: 130.00,
     images: [
       "/images/corta_vento/cores.jpeg",
       
     ],
     category: "Corta Vento",
-    description: "Corta Vento Varejo R$80,00",
+    description: "Corta Vento Varejo R$150,00",
     sku: "SD156",
     inStock: true,
     colors: [

@@ -34,6 +34,8 @@ import { conjunto_kayla } from "./conjunto_kayla";
 import { conjunto_michely } from "./conjunto_michely";
 import { conjunto_aline } from "./conjunto_aline";
 import { conjunto_bela } from "./conjunto_bela";
+import { conjunto_maya } from "./conjunto_maya";
+import { conjunto_rafa } from "./conjunto_rafa";
 
 
 
@@ -80,4 +82,6 @@ export const products: Product[] = [
   ...conjunto_michely,
   ...conjunto_aline,
   ...conjunto_bela,
+  ...conjunto_maya,
+  ...conjunto_rafa,
 ];
