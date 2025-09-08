@@ -42,6 +42,10 @@ import { saia_max } from "./saia_max";
 import { conjunto_sara } from "./conjunto_sara";
 import { conjunto_estelar } from "./conjunto_estelar";
 import { colete_keyla } from "./colete_keyla";
+import { vestido_elisa } from "./vestido_elisa";
+import { conjunto_isabelly } from "./conjunto_isabelly";
+import { camisa_eli } from "./camisa_eli";
+import { blusa_alexia } from "./blusa_alexia";
 
 
 
@@ -96,4 +100,10 @@ export const products: Product[] = [
   ...conjunto_sara,
   ...conjunto_estelar,
   ...colete_keyla,
+  ...vestido_elisa,
+  ...conjunto_isabelly,
+  ...camisa_eli,
+  ...blusa_alexia,
+  
+  
 ];
