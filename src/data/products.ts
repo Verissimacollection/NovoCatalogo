@@ -41,6 +41,7 @@ import { conjunto_paris } from "./conjunto_paris";
 import { saia_max } from "./saia_max";
 import { conjunto_sara } from "./conjunto_sara";
 import { conjunto_estelar } from "./conjunto_estelar";
+import { colete_keyla } from "./colete_keyla";
 
 
 
@@ -94,4 +95,5 @@ export const products: Product[] = [
   ...saia_max,
   ...conjunto_sara,
   ...conjunto_estelar,
+  ...colete_keyla,
 ];
