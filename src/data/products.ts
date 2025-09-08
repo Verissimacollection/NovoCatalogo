@@ -39,6 +39,8 @@ import { conjunto_rafa } from "./conjunto_rafa";
 import { conjunto_mia_saia } from "./conjunto_mia_saia";
 import { conjunto_paris } from "./conjunto_paris";
 import { saia_max } from "./saia_max";
+import { conjunto_sara } from "./conjunto_sara";
+import { conjunto_estelar } from "./conjunto_estelar";
 
 
 
@@ -90,4 +92,6 @@ export const products: Product[] = [
   ...conjunto_mia_saia,
   ...conjunto_paris,
   ...saia_max,
+  ...conjunto_sara,
+  ...conjunto_estelar,
 ];
