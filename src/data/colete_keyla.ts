@@ -7,8 +7,8 @@ export const colete_keyla: Product[] = [
     name: "Colete Kayla",  // Nome sem tamanho
     price: 60.00,
     images: [
-      "/images/colete/colete_keyla/preto.jpeg",
-      "/images/colete/colete_keyla/cores.jpeg",
+      "/images/coletes/colete_keyla/preto.jpeg",
+      "/images/coletes/colete_keyla/cores.jpeg",
     ],
     category: "Colete",
     description: "Colete Keyla Varejo R$80,00",
