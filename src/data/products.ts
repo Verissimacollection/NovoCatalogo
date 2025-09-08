@@ -36,6 +36,9 @@ import { conjunto_aline } from "./conjunto_aline";
 import { conjunto_bela } from "./conjunto_bela";
 import { conjunto_maya } from "./conjunto_maya";
 import { conjunto_rafa } from "./conjunto_rafa";
+import { conjunto_mia_saia } from "./conjunto_mia_saia";
+import { conjunto_paris } from "./conjunto_paris";
+import { saia_max } from "./saia_max";
 
 
 
@@ -84,4 +87,7 @@ export const products: Product[] = [
   ...conjunto_bela,
   ...conjunto_maya,
   ...conjunto_rafa,
+  ...conjunto_mia_saia,
+  ...conjunto_paris,
+  ...saia_max,
 ];
