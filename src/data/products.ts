@@ -48,6 +48,9 @@ import { camisa_eli } from "./camisa_eli";
 import { blusa_alexia } from "./blusa_alexia";
 import { conjunto_lari } from "./conjunto_lari";
 import { blusa_modal_clara } from "./blusa_modal_clara";
+import { blazer_verissima } from "./blazer_verissima";
+import { conjunto_sofy } from "./conjunto_sofy";
+import { conjunto_sonia } from "./conjunto_sonia";
 
 
 
@@ -108,5 +111,9 @@ export const products: Product[] = [
   ...blusa_alexia,
   ...conjunto_lari,
   ...blusa_modal_clara,
+  ...blazer_verissima,
+  ...conjunto_sofy,
+  ...conjunto_sonia,
+  
   
 ];
