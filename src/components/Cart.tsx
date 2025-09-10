@@ -27,7 +27,6 @@ const Cart = () => {
     updateQuantity,
     clearCart,
     getTotalPrice,
-    getTotalPriceWithDiscount,
     getTotalQuantity,
     isOpen,
     setIsOpen,
@@ -48,86 +47,8 @@ const Cart = () => {
   const totalItems = getTotalQuantity();
   const total = getTotalPrice();
 
-  const isDeliveryDataValid = () => {
-    // Delivery data is now optional
-    return true;
-  };
-
-  const saveOrderToDatabase = async () => {
-    try {
-      // Generate unique order number
-      const orderNumber = `${Date.now().toString(36).toUpperCase()}`;
-      
-      // Create full address
-      const fullAddress = deliveryData.endereco && deliveryData.numero 
-        ? `${deliveryData.endereco}, nº ${deliveryData.numero}${deliveryData.complemento ? `, ${deliveryData.complemento}` : ''}`
-        : 'Não informado';
-      
-      // Insert order
-      const { data: order, error: orderError } = await supabase
-        .from('orders')
-        .insert({
-          order_number: orderNumber,
-          customer_name: deliveryData.nome || 'Cliente',
-          customer_phone: deliveryData.celular || null,
-          customer_address: fullAddress,
-          customer_city: deliveryData.cidade || 'Não informado',
-          customer_state: deliveryData.estado || null,
-          customer_cep: deliveryData.cep || 'Não informado',
-          shipping_method: deliveryData.frete || 'Não informado',
-          total_amount: total,
-          total_quantity: totalItems,
-          status: 'pending'
-        })
-        .select()
-        .single();
-
-      if (orderError) throw orderError;
-
-      // Insert order items
-      const orderItems = items.map(item => ({
-        order_id: order.id,
-        product_id: item.id,
-        product_name: item.name,
-        product_sku: item.sku,
-        product_color: item.color || null,
-        product_size: item.size || null,
-        quantity: item.quantity,
-        unit_price: item.price,
-        subtotal: item.price * item.quantity
-      }));
-
-      const { error: itemsError } = await supabase
-        .from('order_items')
-        .insert(orderItems);
-
-      if (itemsError) throw itemsError;
-
-      return orderNumber;
-    } catch (error) {
-      console.error('Error saving order to database:', error);
-      throw error;
-    }
-  };
-
   const handleWhatsAppOrder = async () => {
     if (items.length === 0) return;
-
-    try {
-      // Save order to database first
-      const orderNumber = await saveOrderToDatabase();
-
-      toast({
-        title: "Pedido salvo!",
-        description: `Pedido #${orderNumber} foi registrado com sucesso.`,
-      });
-    } catch (error) {
-      toast({
-        title: "Erro",
-        description: "Erro ao salvar o pedido. O WhatsApp será aberto normalmente.",
-        variant: "destructive",
-      });
-    }
 
     let message = "🛒 *Meu Pedido:*\n\n";
 
@@ -143,14 +64,13 @@ const Cart = () => {
         message += `Tamanho: ${item.size}\n`;
       }
       message += `Quantidade: ${item.quantity}\n`;
-      message += `Preço unitário: R$ ${formatPrice(item.price)}\n`;
-      message += `Subtotal: R$ ${formatPrice(itemSubtotal)}\n`;
+      message += `Preço unitário: ${formatPrice(item.price)}\n`;
+      message += `Subtotal: ${formatPrice(itemSubtotal)}\n`;
       message += "──────────────────────\n";
     });
 
     message += `\n💰 *Total:* ${formatPrice(total)}\n`;
 
-    // Only add delivery data if provided
     const hasDeliveryData = deliveryData.nome || deliveryData.celular || deliveryData.endereco;
     if (hasDeliveryData) {
       message += "\n📦 *Dados para Entrega:*\n";
@@ -185,14 +105,11 @@ const Cart = () => {
     const phoneNumber = "5511987962867";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
-    // Detectar se está em webview do Instagram e usar estratégia alternativa
     const isInstagramWebView = /Instagram/.test(navigator.userAgent);
     
     if (isInstagramWebView) {
-      // Para Instagram, usar window.location.href ao invés de window.open
       window.location.href = url;
     } else {
-      // Para navegadores normais, usar window.open
       window.open(url, '_blank');
     }
     
@@ -208,8 +125,6 @@ const Cart = () => {
       });
       return;
     }
-
-    // PDF can be generated without complete delivery data
 
     try {
       const fileName = generateOrderPDF({
@@ -265,7 +180,6 @@ const Cart = () => {
                   ))}
                 </div>
 
-
                 <div className="mt-4">
                   <DeliveryForm
                     deliveryData={deliveryData}
@@ -280,9 +194,7 @@ const Cart = () => {
         {items.length > 0 && (
           <div className="sticky bottom-0 bg-white border-t shadow-lg">
             <div className="p-3 sm:p-4">
-               <CartSummary
-                 total={total}
-               />
+               <CartSummary total={total} />
               
               <div className="mt-3 sm:mt-4">
                 <CartActions
