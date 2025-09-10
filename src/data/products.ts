@@ -124,6 +124,4 @@ export const products: Product[] = [
   ...regata_iza,
   ...conjunto_perola,
   ...conjunto_camila,
-  
-  
 ];
