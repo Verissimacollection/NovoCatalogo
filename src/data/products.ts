@@ -54,6 +54,8 @@ import { conjunto_franca } from "./conjunto_franca";
 import { conjunto_cecilia } from "./conjunto_cecilia";
 import { regata_isadora } from "./regata_isadora";
 import { regata_iza } from "./regata_iza";
+import { conjunto_perola } from "./conjunto_perola";
+import { conjunto_camila } from "./conjunto_camila";
 
 
 
@@ -120,5 +122,8 @@ export const products: Product[] = [
   ...conjunto_cecilia,
   ...regata_isadora,
   ...regata_iza,
+  ...conjunto_perola,
+  ...conjunto_camila,
+  
   
 ];
