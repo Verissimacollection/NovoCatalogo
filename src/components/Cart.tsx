@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useCart } from '@/contexts/CartContext';
 import { generateOrderPDF } from '@/utils/pdfGenerator';
-import { toast } from '@/components/ui/use-toast';
+import { toast } from '@/hooks/use-toast';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import DeliveryForm from './DeliveryForm';
 import CartHeader from './CartHeader';
@@ -35,6 +35,7 @@ const Cart = () => {
 
   const [deliveryData, setDeliveryData] = useState({
     nome: '',
+    celular: '',
     endereco: '',
     numero: '',
     complemento: '',
@@ -48,25 +49,84 @@ const Cart = () => {
   const total = getTotalPrice();
 
   const isDeliveryDataValid = () => {
-    return deliveryData.nome && 
-           deliveryData.endereco && 
-           deliveryData.numero &&
-           deliveryData.cidade && 
-           deliveryData.estado &&
-           deliveryData.cep && 
-           deliveryData.frete;
+    // Delivery data is now optional
+    return true;
   };
 
-  const handleWhatsAppOrder = () => {
+  const saveOrderToDatabase = async () => {
+    try {
+      // Generate unique order number
+      const orderNumber = `${Date.now().toString(36).toUpperCase()}`;
+      
+      // Create full address
+      const fullAddress = deliveryData.endereco && deliveryData.numero 
+        ? `${deliveryData.endereco}, nº ${deliveryData.numero}${deliveryData.complemento ? `, ${deliveryData.complemento}` : ''}`
+        : 'Não informado';
+      
+      // Insert order
+      const { data: order, error: orderError } = await supabase
+        .from('orders')
+        .insert({
+          order_number: orderNumber,
+          customer_name: deliveryData.nome || 'Cliente',
+          customer_phone: deliveryData.celular || null,
+          customer_address: fullAddress,
+          customer_city: deliveryData.cidade || 'Não informado',
+          customer_state: deliveryData.estado || null,
+          customer_cep: deliveryData.cep || 'Não informado',
+          shipping_method: deliveryData.frete || 'Não informado',
+          total_amount: total,
+          total_quantity: totalItems,
+          status: 'pending'
+        })
+        .select()
+        .single();
+
+      if (orderError) throw orderError;
+
+      // Insert order items
+      const orderItems = items.map(item => ({
+        order_id: order.id,
+        product_id: item.id,
+        product_name: item.name,
+        product_sku: item.sku,
+        product_color: item.color || null,
+        product_size: item.size || null,
+        quantity: item.quantity,
+        unit_price: item.price,
+        subtotal: item.price * item.quantity
+      }));
+
+      const { error: itemsError } = await supabase
+        .from('order_items')
+        .insert(orderItems);
+
+      if (itemsError) throw itemsError;
+
+      return orderNumber;
+    } catch (error) {
+      console.error('Error saving order to database:', error);
+      throw error;
+    }
+  };
+
+  const handleWhatsAppOrder = async () => {
     if (items.length === 0) return;
 
-    if (!isDeliveryDataValid()) {
+    try {
+      // Save order to database first
+      const orderNumber = await saveOrderToDatabase();
+
       toast({
-        title: "Dados incompletos",
-        description: "Por favor, preencha todos os dados de entrega.",
+        title: "Pedido salvo!",
+        description: `Pedido #${orderNumber} foi registrado com sucesso.`,
+      });
+    } catch (error) {
+      toast({
+        title: "Erro",
+        description: "Erro ao salvar o pedido. O WhatsApp será aberto normalmente.",
         variant: "destructive",
       });
-      return;
     }
 
     let message = "🛒 *Meu Pedido:*\n\n";
@@ -90,28 +150,52 @@ const Cart = () => {
 
     message += `\n💰 *Total:* ${formatPrice(total)}\n`;
 
-    message += "\n📦 *Dados para Entrega:*\n";
-    message += `👤 Nome: ${deliveryData.nome}\n`;
-    message += `📍 Endereço: ${deliveryData.endereco}, nº ${deliveryData.numero}`;
-    if (deliveryData.complemento) {
-      message += `, ${deliveryData.complemento}`;
+    // Only add delivery data if provided
+    const hasDeliveryData = deliveryData.nome || deliveryData.celular || deliveryData.endereco;
+    if (hasDeliveryData) {
+      message += "\n📦 *Dados para Entrega:*\n";
+      if (deliveryData.nome) message += `👤 Nome: ${deliveryData.nome}\n`;
+      if (deliveryData.celular) message += `📞 Celular: ${deliveryData.celular}\n`;
+      if (deliveryData.endereco && deliveryData.numero) {
+        message += `📍 Endereço: ${deliveryData.endereco}, nº ${deliveryData.numero}`;
+        if (deliveryData.complemento) {
+          message += `, ${deliveryData.complemento}`;
+        }
+        message += `\n`;
+      }
+      if (deliveryData.cidade) {
+        message += `🏙️ Cidade: ${deliveryData.cidade}`;
+        if (deliveryData.estado) {
+          message += ` - ${deliveryData.estado}`;
+        }
+        message += `\n`;
+      }
+      if (deliveryData.cep) message += `📮 CEP: ${deliveryData.cep}\n`;
+      
+      if (deliveryData.frete) {
+        const freteLabel = FRETE_LABELS[deliveryData.frete] || deliveryData.frete;
+        message += `🚚 Frete: ${freteLabel} (consultar valor)\n`;
+      }
+    } else {
+      message += "\n📦 *Entrega:* Dados não informados (consultar no WhatsApp)\n";
     }
-    message += `\n`;
-    message += `🏙️ Cidade: ${deliveryData.cidade}`;
-    if (deliveryData.estado) {
-      message += ` - ${deliveryData.estado}`;
-    }
-    message += `\n`;
-    message += `📮 CEP: ${deliveryData.cep}\n`;
-
-    const freteLabel = FRETE_LABELS[deliveryData.frete] || deliveryData.frete;
-    message += `🚚 Frete: ${freteLabel} (consultar valor)\n`;
 
     message += "\n📞 Gostaria de finalizar este pedido!\nObrigado 😊";
 
     const phoneNumber = "5511987962867";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-    window.open(url, '_blank');
+    
+    // Detectar se está em webview do Instagram e usar estratégia alternativa
+    const isInstagramWebView = /Instagram/.test(navigator.userAgent);
+    
+    if (isInstagramWebView) {
+      // Para Instagram, usar window.location.href ao invés de window.open
+      window.location.href = url;
+    } else {
+      // Para navegadores normais, usar window.open
+      window.open(url, '_blank');
+    }
+    
     setIsOpen(false);
   };
 
@@ -125,14 +209,7 @@ const Cart = () => {
       return;
     }
 
-    if (!isDeliveryDataValid()) {
-      toast({
-        title: "Dados incompletos",
-        description: "Por favor, preencha todos os dados de entrega antes de gerar o PDF.",
-        variant: "destructive",
-      });
-      return;
-    }
+    // PDF can be generated without complete delivery data
 
     try {
       const fileName = generateOrderPDF({
