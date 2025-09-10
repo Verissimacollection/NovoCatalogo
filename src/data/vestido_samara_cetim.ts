@@ -8,6 +8,9 @@ export const vestido_samara_cetim: Product[] = [
     name: "Vestido Samara de Cetim",  // Nome sem tamanho
     price: 170.00,
     images: [
+      "/images/vestidos/vestido_samara_cetim/amarelo.jpeg",
+      "/images/vestidos/vestido_samara_cetim/amarelo1.jpeg",
+      "/images/vestidos/vestido_samara_cetim/cores1.jpeg",
       "/images/vestidos/vestido_samara_cetim/cores.jpeg",
     ],
     category: "Vestido",
