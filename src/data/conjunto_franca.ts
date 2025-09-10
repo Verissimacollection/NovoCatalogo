@@ -1,25 +1,26 @@
 import { Product } from "@/interfaces/Product";
 
 // Exemplo de como estruturar produtos com múltiplos tamanhos
-export const conjunto_kayla: Product[] = [
+export const conjunto_franca: Product[] = [
   {
-    id: 21,
-    name: "Conjunto Kayla",  // Nome sem tamanho
-    price: 110.00,
+    id: 46,
+    name: "Conjunto França ",  // Nome sem tamanho
+    price: 150.00,
     images: [
-      "/images/conjuntos/conjunto_kayla/rosabebe.jpeg",
-      "/images/conjuntos/conjunto_kayla/cores.jpeg",
+      "/images/conjuntos/conjunto_franca/amarelo.jpeg",
+      "/images/conjuntos/conjunto_franca/cores.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Kayla Varejo R&140,00 ",
-    sku: "8331",
+    description: "Conjunto França 170,00 Varejo",
+    sku: "46",
     inStock: true,
     colors: [
+      { color: "Verde", inStock: true },
       { color: "Branco", inStock: true },
       { color: "Azul Bebe", inStock: true },
-      { color: "Rosa Bebe", inStock: true },
-      { color: "Marrom", inStock: true },
-      { color: "Verde", inStock: true },
+      { color: "Amarelo", inStock: true },
+      { color: "Preto", inStock: true },
+      
       
     ],
     sizes: [
@@ -28,6 +29,5 @@ export const conjunto_kayla: Product[] = [
       { size: "G", inStock: true }
     ]
   },
-
   
 ];

@@ -5,12 +5,12 @@ export const conjunto_rafa: Product[] = [
   {
     id: 28,
     name: "Conjunto Rafa ",  // Nome sem tamanho
-    price: 150.00,
+    price: 170.00,
     images: [
       "/images/conjuntos/conjunto_rafa/cores.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Rafa Varejo R$160,00",
+    description: "Conjunto Rafa Varejo R$190,00",
     sku: "1438",
     inStock: true,
     colors: [

@@ -30,7 +30,6 @@ import { conjunto_mary } from "./conjunto_mary";
 import { conjunto_paula } from "./conjunto_paula";
 import { macacao_rilare } from "./macacao_rilare";
 import { vestido_dani } from "./vestido_dani";
-import { conjunto_kayla } from "./conjunto_kayla";
 import { conjunto_michely } from "./conjunto_michely";
 import { conjunto_aline } from "./conjunto_aline";
 import { conjunto_bela } from "./conjunto_bela";
@@ -42,7 +41,6 @@ import { saia_max } from "./saia_max";
 import { conjunto_sara } from "./conjunto_sara";
 import { conjunto_estelar } from "./conjunto_estelar";
 import { colete_keyla } from "./colete_keyla";
-import { vestido_elisa } from "./vestido_elisa";
 import { conjunto_isabelly } from "./conjunto_isabelly";
 import { camisa_eli } from "./camisa_eli";
 import { blusa_alexia } from "./blusa_alexia";
@@ -51,6 +49,9 @@ import { blusa_modal_clara } from "./blusa_modal_clara";
 import { blazer_verissima } from "./blazer_verissima";
 import { conjunto_sofy } from "./conjunto_sofy";
 import { conjunto_sonia } from "./conjunto_sonia";
+import { vestido_samara_cetim } from "./vestido_samara_cetim";
+import { conjunto_franca } from "./conjunto_franca";
+import { conjunto_cecilia } from "./conjunto_cecilia";
 
 
 
@@ -93,7 +94,7 @@ export const products: Product[] = [
   ...conjunto_paula,
   ...macacao_rilare,
   ...vestido_dani,
-  ...conjunto_kayla,
+  ...conjunto_franca,
   ...conjunto_michely,
   ...conjunto_aline,
   ...conjunto_bela,
@@ -105,7 +106,6 @@ export const products: Product[] = [
   ...conjunto_sara,
   ...conjunto_estelar,
   ...colete_keyla,
-  ...vestido_elisa,
   ...conjunto_isabelly,
   ...camisa_eli,
   ...blusa_alexia,
@@ -114,6 +114,7 @@ export const products: Product[] = [
   ...blazer_verissima,
   ...conjunto_sofy,
   ...conjunto_sonia,
-  
+  ...vestido_samara_cetim,
+  ...conjunto_cecilia,
   
 ];

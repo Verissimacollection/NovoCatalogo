@@ -8,6 +8,7 @@ export const vestido_rose: Product[] = [
     name: "Vestido Rose",  // Nome sem tamanho
     price: 100.00,
     images: [
+      "/images/vestidos/vestido_rose/preto.jpeg",
       "/images/vestidos/vestido_rose/cores.jpeg",
     ],
     category: "Vestido",

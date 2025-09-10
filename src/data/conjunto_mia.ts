@@ -5,13 +5,13 @@ export const conjunto_mia: Product[] = [
   {
     id: 4,
     name: "Conjunto Mia ",  // Nome sem tamanho
-    price: 60.00,
+    price: 170.00,
     images: [
       "/images/conjuntos/conjunto_mia/azulbebe.jpeg",
       "/images/conjuntos/conjunto_mia/cores.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Mia disponível em múltiplos tamanhos",
+    description: "Conjunto Mia Varejo R$190,00",
     sku: "2213",
     inStock: true,
     colors: [

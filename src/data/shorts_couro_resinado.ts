@@ -5,13 +5,13 @@ export const shorts_couro_resinado: Product[] = [
   {
     id: 600,
     name: "Shorts Couro Resinada",  // Nome sem tamanho
-    price: 65.00,
+    price: 70.00,
     images: [
       "/images/shorts/short_couro_resinado/cores.jpeg",
       
     ],
     category: "Shorts",
-    description: "Shorts Couro Resinada R$80,00 Varejo R$65,00 Atacado ",
+    description: "Shorts Couro Resinada Varejo R$80,00 Atacado ",
     sku: "2507",
     inStock: true,
     colors: [
