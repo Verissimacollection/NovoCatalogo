@@ -52,6 +52,8 @@ import { conjunto_sonia } from "./conjunto_sonia";
 import { vestido_samara_cetim } from "./vestido_samara_cetim";
 import { conjunto_franca } from "./conjunto_franca";
 import { conjunto_cecilia } from "./conjunto_cecilia";
+import { regata_isadora } from "./regata_isadora";
+import { regata_iza } from "./regata_iza";
 
 
 
@@ -116,5 +118,7 @@ export const products: Product[] = [
   ...conjunto_sonia,
   ...vestido_samara_cetim,
   ...conjunto_cecilia,
+  ...regata_isadora,
+  ...regata_iza,
   
 ];
