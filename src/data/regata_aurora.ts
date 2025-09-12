@@ -7,7 +7,7 @@ export const regata_aurora: Product[] = [
     name: "Regata Aurora",  // Nome sem tamanho
     price: 40.00,
     images: [
-      "/images/regatas/regata_aurora/cores.jpeg",
+      "/images/regatas/regata_aurora/nude.jpeg",
     ],
     category: "Regata",
     description: "Regata Aurora Varejo R$50,00",
