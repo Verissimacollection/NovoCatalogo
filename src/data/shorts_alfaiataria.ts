@@ -8,7 +8,7 @@ export const shorts_alfaiataria: Product[] = [
         price: 20.00,
         images: [
             
-            "/images/alfaiataria premium/Shorts/cores.jpeg",
+            "/images/alfaitaria premium/Shorts/cores.jpeg",
             
 
         ],
