@@ -9,7 +9,12 @@ export const blazer_verissima: Product[] = [
         images: [
             "/images/Blazer/cinza1.jpeg",
             "/images/Blazer/Cinza.jpeg",
+            "/images/Blazer/marinho.jpeg",
+            "/images/Blazer/preto.jpeg",
+            "/images/Blazer/vermelho.jpeg",
             "/images/Blazer/cores.jpeg",
+
+
         ],
         category: "Blazer",
         description: "Blazer Verissima Varejo R$180,00",
