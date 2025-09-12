@@ -71,6 +71,12 @@ import { camisa_sophie } from "./camisa_sophie";
 import { camisa_laura } from "./camisa_laura";
 import { regata_valentina } from "./regata_valentina";
 import { conjunto_fatima } from "./conjunto_fatima";
+import { calca_beatriz } from "./calca_beatriz";
+import { shorts_alfaiataria } from "./shorts_alfaiataria";
+import { camisa_mariaflor } from "./camisa_mariaflor";
+import { blazer_bella } from "./blazer_bella";
+import { conjunto_bianca } from "./conjunto_bianca";
+import { vestido_carmen } from "./vestido_carmen";
 
 
 
@@ -154,4 +160,10 @@ export const products: Product[] = [
   ...camisa_laura,
   ...regata_valentina,
   ...conjunto_fatima,
+  ...calca_beatriz,
+  ...shorts_alfaiataria,
+  ...camisa_mariaflor,
+  ...blazer_bella,
+  ...conjunto_bianca,
+  ...vestido_carmen,
 ];
