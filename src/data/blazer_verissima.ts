@@ -7,12 +7,12 @@ export const blazer_verissima: Product[] = [
         name: "Blazer Verissima",  // Nome sem tamanho
         price: 150.00,
         images: [
-            "/images/Blazer/cinza1.jpeg",
-            "/images/Blazer/Cinza.jpeg",
-            "/images/Blazer/marinho.jpeg",
-            "/images/Blazer/preto.jpeg",
-            "/images/Blazer/vermelho.jpeg",
-            "/images/Blazer/cores.jpeg",
+            "/images/Blazer/blazer_verissima/cinza1.jpeg",
+            "/images/Blazer/blazer_verissima/Cinza.jpeg",
+            "/images/Blazer/blazer_verissima/marinho.jpeg",
+            "/images/Blazer/blazer_verissima/preto.jpeg",
+            "/images/Blazer/blazer_verissima/vermelho.jpeg",
+            "/images/Blazer/blazer_verissima/cores.jpeg",
 
 
         ],
