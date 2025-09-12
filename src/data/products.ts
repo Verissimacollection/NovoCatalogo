@@ -67,6 +67,9 @@ import { regata_aurora } from "./regata_aurora";
 import { calca_monica } from "./calca_monica";
 import { conjunto_rosa } from "./conjunto_rosa";
 import { calca_viviane } from "./calca_viviane";
+import { camisa_sophie } from "./camisa_sophie";
+import { camisa_laura } from "./camisa_laura";
+import { regata_valentina } from "./regata_valentina";
 
 
 
@@ -146,4 +149,7 @@ export const products: Product[] = [
   ...calca_monica,
   ...conjunto_rosa,
   ...calca_viviane,
+  ...camisa_sophie,
+  ...camisa_laura,
+  ...regata_valentina,
 ];
