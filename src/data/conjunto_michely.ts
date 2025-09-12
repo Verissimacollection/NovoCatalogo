@@ -6,13 +6,13 @@ export const conjunto_michely: Product[] = [
   {
     id: 22,
     name: "Conjunto Michely",  // Nome sem tamanho
-    price: 110.00,
+    price: 160.00,
     images: [
       "/images/conjuntos/conjunto_michely/azulbebe.jpeg",
       "/images/conjuntos/conjunto_michely/cores.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Michely Varejo R&140,00 ",
+    description: "Conjunto Michely Varejo R&170,00 ",
     sku: "2214",
     inStock: true,
     colors: [
