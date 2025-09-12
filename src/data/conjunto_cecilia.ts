@@ -9,7 +9,7 @@ export const conjunto_cecilia: Product[] = [
     images: [
       "/images/conjuntos/conjunto_cecilia/preto.jpeg",
      "/images/conjuntos/conjunto_cecilia/branco.jpeg",
-     "/images/conjuntos/conjunto_cecilia/nude.jpeg",
+     "/images/conjuntos/conjunto_cecilia/resa.jpeg",
     ],
     category: "Conjuntos",
     description: "Conjunto Cecilia 150,00 Varejo",
