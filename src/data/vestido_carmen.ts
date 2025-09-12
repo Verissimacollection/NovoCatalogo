@@ -23,7 +23,7 @@ export const vestido_carmen: Product[] = [
             { color: "Preto", inStock: true },
             { color: "Azul", inStock: true },
             { color: "Rosa", inStock: true },
-            { color: "Marrom Claro", inStock: true },
+            { color: "Marrom", inStock: true },
         ],
         sizes: [
             { size: "P", inStock: true },
