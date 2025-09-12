@@ -235,15 +235,18 @@ export default function ProductCard({ product, onWhatsAppClick }: ProductCardPro
             </div>
           )}
 
-          <div className="flex items-center space-x-2">
-            <span className="text-2xl font-bold text-green-600">
-              {formatPrice(product.price)}
-            </span>
-            {product.originalPrice && (
-              <span className="text-sm text-gray-500 line-through">
-                {formatPrice(product.originalPrice)}
+            <div className="space-y-1">
+            <div className="flex items-center space-x-2">
+              <span className="text-2xl font-bold text-green-600">
+                {formatPrice(product.price)}
               </span>
-            )}
+              {product.originalPrice && (
+                <span className="text-sm text-gray-500 line-through">
+                  {formatPrice(product.originalPrice)}
+                </span>
+              )}
+            </div>
+            <p className="text-xs text-gray-500">Atacado: acima de 3 peças</p>
           </div>
 
           {/* Contador de quantidade */}
