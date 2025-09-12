@@ -56,6 +56,10 @@ import { regata_isadora } from "./regata_isadora";
 import { regata_iza } from "./regata_iza";
 import { conjunto_perola } from "./conjunto_perola";
 import { conjunto_camila } from "./conjunto_camila";
+import { conjunto_heloisa } from "./conjunto_heloisa";
+import { conjunto_yasmin } from "./conjunto_yasmin";
+import { camisa_gabriela } from "./camisa_gabriela";
+import { camisa_rafaela } from "./camisa_rafaela";
 
 
 
@@ -124,4 +128,8 @@ export const products: Product[] = [
   ...regata_iza,
   ...conjunto_perola,
   ...conjunto_camila,
+  ...conjunto_heloisa,
+  ...conjunto_yasmin,
+  ...camisa_gabriela,
+  ...camisa_rafaela,
 ];
