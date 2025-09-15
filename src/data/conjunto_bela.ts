@@ -6,13 +6,13 @@ export const conjunto_bela: Product[] = [
   {
     id: 23,
     name: "Conjunto Bela",  // Nome sem tamanho
-    price: 160.00,
+    price: 170.00,
     images: [
       "/images/conjuntos/conjunto_bela/verde.jpeg",
       "/images/conjuntos/conjunto_bela/cores.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Bela Varejo R&170,00 ",
+    description: "Conjunto Bela Varejo R&190,00 ",
     sku: "31",
     inStock: true,
     colors: [

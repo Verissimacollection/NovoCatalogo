@@ -5,7 +5,7 @@ export const conjunto_australia: Product[] = [
   {
     id: 13,
     name: "Conjunto Australia ",  // Nome sem tamanho
-    price: 160.00,
+    price: 170.00,
     images: [
       "/images/conjuntos/conjunto_australia/cinza.jpeg",
       "/images/conjuntos/conjunto_australia/cores.jpeg",

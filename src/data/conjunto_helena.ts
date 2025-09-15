@@ -5,12 +5,12 @@ export const conjunto_helena: Product[] = [
   {
     id: 19,
     name: "Conjunto Helena ",  // Nome sem tamanho
-    price: 130.00,
+    price: 150.00,
     images: [
       "/images/conjuntos/conjunto_helena/cores.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Helena 160,00 Varejo",
+    description: "Conjunto Helena 170,00 Varejo",
     sku: "1446",
     inStock: true,
     colors: [

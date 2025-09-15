@@ -5,13 +5,13 @@ export const conjunto_bea: Product[] = [
   {
     id: 3,
     name: "Conjunto Bea ",  // Nome sem tamanho
-    price: 130.00,
+    price: 150.00,
     images: [
       "/images/conjuntos/conjunto_bea/branco.jpeg",
       "/images/conjuntos/conjunto_bea/cores.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Bea Varejo R$150,00",
+    description: "Conjunto Bea Varejo R$170,00",
     sku: "6546",
     inStock: true,
     colors: [

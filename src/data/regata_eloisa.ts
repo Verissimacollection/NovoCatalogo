@@ -5,7 +5,7 @@ export const regata_eloisa: Product[] = [
   {
     id: 751,
     name: "Regata Eloisa",  // Nome sem tamanho
-    price: 25.00,
+    price: 30.00,
     images: [
       "/images/regatas/regata_eloisa/cores.jpeg",
     ],
