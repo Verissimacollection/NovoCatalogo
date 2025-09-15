@@ -4,14 +4,14 @@ import { Product } from "@/interfaces/Product";
 export const conjunto_estelar: Product[] = [
   {
     id: 32,
-    name: "Conjunto Estelar ",  // Nome sem tamanho
+    name: "Conjunto Estela ",  // Nome sem tamanho
     price: 170.00,
     images: [
       "/images/conjuntos/conjunto_estelar/branco.jpeg",
       "/images/conjuntos/conjunto_estelar/bordo.jpeg",
     ],
     category: "Conjuntos",
-    description: "Conjunto Estelar Varejo R$180,00",
+    description: "Conjunto Estela Varejo R$180,00",
     sku: "32",
     inStock: true,
     colors: [

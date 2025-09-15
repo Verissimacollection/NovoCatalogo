@@ -6,13 +6,13 @@ export const vestido_stefane: Product[] = [
   {
     id: 321,
     name: "Vestido Stefane",  // Nome sem tamanho
-    price: 120.00,
+    price: 180.00,
     images: [
         "/images/vestidos/vestido_stefane/branco.jpeg",
       "/images/vestidos/vestido_stefane/cores.jpeg",
     ],
     category: "Vestido",
-    description: "Vestido Stefane Varejo R$150,00",
+    description: "Vestido Stefane ",
     sku: "9091",
     inStock: true,
     colors: [
