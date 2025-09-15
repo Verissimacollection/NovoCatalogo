@@ -14,7 +14,7 @@ export const vestido_helena: Product[] = [
             "/images/vestidos/vestido_helena/branco.jpeg",
             "/images/vestidos/vestido_helena/cores.jpeg",
              "/images/vestidos/vestido_helena/cores.jpeg",
-             "/images/vestidos/vestido_helena/video1.mp4",
+             
 
         ],
         category: "Vestido",
