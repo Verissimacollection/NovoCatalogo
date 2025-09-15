@@ -79,6 +79,7 @@ import { conjunto_bianca } from "./conjunto_bianca";
 import { vestido_carmen } from "./vestido_carmen";
 import { conjunto_diana } from "./conjunto_diana";
 import { calca_Joyce } from "./calca_joyce";
+import { vestido_roma } from "./vestido_roma";
 
 
 
@@ -170,4 +171,5 @@ export const products: Product[] = [
   ...vestido_carmen,
   ...conjunto_diana,
   ...calca_Joyce,
+  ...vestido_roma,
 ];
