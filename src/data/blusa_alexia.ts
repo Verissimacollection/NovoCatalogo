@@ -5,13 +5,13 @@ export const blusa_alexia: Product[] = [
   {
     id: 2500,
     name: "Blusa Alexia",  // Nome sem tamanho
-    price: 25.00,
+    price: 35.00,
     images: [
       "/images/Blusa/blusa_alexia/cores.jpeg",
       
     ],
     category: "Blusas",
-    description: "Blusa Alexia Varejo R$35,00",
+    description: "Blusa Alexia",
     sku: "2500",
     inStock: true,
     colors: [

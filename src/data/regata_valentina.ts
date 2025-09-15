@@ -5,13 +5,13 @@ export const regata_valentina: Product[] = [
     {
         id: 756,
         name: "Regata Valentina",  // Nome sem tamanho
-        price: 25.00,
+        price: 35.00,
         images: [
 
             "/images/regatas/regata_valentina/cores.jpeg",
         ],
         category: "Regata",
-        description: "Regata Valentina Varejo R$35,00",
+        description: "Regata Valentina",
         sku: "756",
         inStock: true,
         colors: [

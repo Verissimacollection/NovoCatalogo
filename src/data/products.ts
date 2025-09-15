@@ -77,6 +77,8 @@ import { camisa_mariaflor } from "./camisa_mariaflor";
 import { blazer_bella } from "./blazer_bella";
 import { conjunto_bianca } from "./conjunto_bianca";
 import { vestido_carmen } from "./vestido_carmen";
+import { conjunto_diana } from "./conjunto_diana";
+import { calca_Joyce } from "./calca_joyce";
 
 
 
@@ -166,4 +168,6 @@ export const products: Product[] = [
   ...blazer_bella,
   ...conjunto_bianca,
   ...vestido_carmen,
+  ...conjunto_diana,
+  ...calca_Joyce,
 ];

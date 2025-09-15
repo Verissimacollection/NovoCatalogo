@@ -5,13 +5,13 @@ export const regata_iza: Product[] = [
     {
         id: 754,
         name: "Regata Iza",  // Nome sem tamanho
-        price: 25.00,
+        price: 35.00,
         images: [
 
             "/images/regatas/regata_iza/cores.jpeg",
         ],
         category: "Regata",
-        description: "Regata Iza Varejo R$35,00",
+        description: "Regata Iza ",
         sku: "754",
         inStock: true,
         colors: [

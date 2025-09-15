@@ -5,13 +5,13 @@ export const saia_couro_resinada: Product[] = [
   {
     id: 400,
     name: "Saia Couro Resinada",  // Nome sem tamanho
-    price: 65.00,
+    price: 70.00,
     images: [
       "/images/saias/saia_couro_resinada_elastano/cores.jpeg",
       
     ],
     category: "Saia",
-    description: "Saias Couro Resinada Com Elastano Importada R$80,00 Varejo R$65,00 Atacado ",
+    description: "Saias Couro Resinada Com Elastano Importada R$80,00 Varejo ",
     sku: "3535",
     inStock: true,
     colors: [
