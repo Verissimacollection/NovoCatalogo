@@ -3,7 +3,7 @@ import { Product } from "@/interfaces/Product";
 // Exemplo de como estruturar produtos com múltiplos tamanhos
 export const conjunto_bia: Product[] = [
   {
-    id: 1,
+    id: 48,
     name: "Conjunto Bia",  // Nome sem tamanho
     price: 170.00,
     images: [
