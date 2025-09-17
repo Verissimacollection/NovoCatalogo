@@ -13,6 +13,8 @@ export const conjunto_rosy: Product[] = [
       "/images/conjuntos/conjunto_rosy/azul.jpeg",
       "/images/conjuntos/conjunto_rosy/rosa.jpeg",
       "/images/conjuntos/conjunto_rosy/cores.jpeg",
+      "/images/conjuntos/conjunto_rosy/cores.jpeg1",
+
       
     ],
     category: "Conjuntos",
