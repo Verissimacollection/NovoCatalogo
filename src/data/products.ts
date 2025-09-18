@@ -82,6 +82,8 @@ import { calca_Joyce } from "./calca_joyce";
 import { vestido_roma } from "./vestido_roma";
 import { vestido_helena } from "./vestido_helena";
 import { conjunto_rosy } from "./conjunto_rosy";
+import { conjunto_valdirene } from "./conjunto_valdirene";
+import { blusa_judith } from "./blusa_judith";
 
 
 
@@ -176,4 +178,6 @@ export const products: Product[] = [
   ...vestido_roma,
   ...vestido_helena,
   ...conjunto_rosy,
+  ...conjunto_valdirene,
+  ...blusa_judith,
 ];
