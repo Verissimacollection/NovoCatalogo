@@ -8,7 +8,7 @@ export const conjunto_valdirene: Product[] = [
     price: 190.00,
     images: [
       
-      "/images/conjuntos/conjunto_valdirene/cores.jpeg",
+      "/images/conjuntos/conjunto_valdirene/azul.jpeg",
     ],
     category: "Conjuntos",
     description: "Conjunto Valdirene 210,00 Varejo",
