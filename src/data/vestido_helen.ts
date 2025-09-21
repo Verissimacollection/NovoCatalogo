@@ -5,14 +5,14 @@ export const vestido_helen: Product[] = [
     {
         id: 300,
         name: "Vestido Helen",  // Nome sem tamanho
-        price: 130.00,
+        price: 160.00,
         images: [
             "/images/vestidos/vestido_helen/branco.jpeg",
             "/images/vestidos/vestido_helen/cores.jpeg",
 
         ],
         category: "Vestido",
-        description: "Vestido Helen disponível em múltiplos tamanhos R$150,00 Varejo R$130,00 Atacado",
+        description: "Vestido Helen R$150,00 Varejo R$180,00 Atacado",
         sku: "6358",
         inStock: true,
         colors: [
