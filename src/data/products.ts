@@ -87,6 +87,7 @@ import { blusa_judith } from "./blusa_judith";
 import { conjunto_colete } from "./conjunto_colete";
 import { conjunto_flor } from "./conjunto_flor";
 import { conjunto_mara } from "./conjunto_mara";
+import { conjunto_sinta } from "./conjunto_sinta";
 
 
 
@@ -186,6 +187,7 @@ export const products: Product[] = [
   ...conjunto_colete,
   ...conjunto_flor,
   ...conjunto_mara,
+  ...conjunto_sinta,
   
 
 ];
