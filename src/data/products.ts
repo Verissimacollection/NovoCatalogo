@@ -84,6 +84,9 @@ import { vestido_helena } from "./vestido_helena";
 import { conjunto_rosy } from "./conjunto_rosy";
 import { conjunto_valdirene } from "./conjunto_valdirene";
 import { blusa_judith } from "./blusa_judith";
+import { conjunto_colete } from "./conjunto_colete";
+import { conjunto_flor } from "./conjunto_flor";
+import { conjunto_mara } from "./conjunto_mara";
 
 
 
@@ -180,4 +183,9 @@ export const products: Product[] = [
   ...conjunto_rosy,
   ...conjunto_valdirene,
   ...blusa_judith,
+  ...conjunto_colete,
+  ...conjunto_flor,
+  ...conjunto_mara,
+  
+
 ];
