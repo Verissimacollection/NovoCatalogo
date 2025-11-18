@@ -7,8 +7,8 @@ export const vestido_laise: Product[] = [
         name: "Vestido Laise",  // Nome sem tamanho
         price: 190.00,
         images: [
-            "/images/vestidos/vestido_Laise/amarelo.webp",
-             "/images/vestidos/vestido_Laise/cores.webp",
+            "/images/vestidos/vestido_laise/amarelo.webp",
+             "/images/vestidos/vestido_laise/cores.webp",
           
         ],
         category: "Vestido",
