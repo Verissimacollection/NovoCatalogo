@@ -91,6 +91,7 @@ import { conjunto_sinta } from "./conjunto_sinta";
 import { conjunto_flores } from "./conjunto_flores";
 import { vestido_strass } from "./vestido_strass";
 import { macacao_pantalona } from "./macacao_pantalona";
+import { vestido_tubinho } from "./vestido_tubinho";
 
 
 
@@ -103,6 +104,7 @@ import { macacao_pantalona } from "./macacao_pantalona";
 
 // Combinando todos os produtos
 export const products: Product[] = [
+  ...vestido_tubinho,
   ...macacao_pantalona,
   ...vestido_strass,
   ...conjunto_bia,
