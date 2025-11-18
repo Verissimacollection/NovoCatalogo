@@ -7,9 +7,9 @@ export const vestido_tubinho: Product[] = [
         name: "Vestido Tubinho",  // Nome sem tamanho
         price: 190.00,
         images: [
-            "/images/vestidos/vestido_tubinho/branco.webp",
-             "/images/vestidos/vestido_tubinho/preto.webp",
-              "/images/vestidos/vestido_tubinho/cores.webp",
+            "/images/vestidos/vestido tubinho/branco.webp",
+             "/images/vestidos/vestido tubinho/preto.webp",
+              "/images/vestidos/vestido tubinho/cores.webp",
             
           
         ],
