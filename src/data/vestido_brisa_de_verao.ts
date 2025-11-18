@@ -7,8 +7,8 @@ export const vestido_Brisa_de_Verão: Product[] = [
         name: "Vestido Brisa de Verão",  // Nome sem tamanho
         price: 190.00,
         images: [
-            "/images/vestidos/Vestido Brisa de Verão/branco.jpg",
-             "/images/vestidos/Vestido Brisa de Verão/cores.jpg",
+            "/images/vestidos/Vestido Brisa de Verão/branco.jpeg",
+             "/images/vestidos/Vestido Brisa de Verão/cores.jpeg",
           
         ],
         category: "Vestido",
