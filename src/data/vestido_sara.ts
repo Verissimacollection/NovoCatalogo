@@ -8,10 +8,10 @@ export const vestido_sara: Product[] = [
         price: 220.00,
         images: [
             
-            "/images/vestidos/vestido_sara/preto.jpeg",
-            "/images/vestidos/vestido_sara/branco.jpeg",
-            "/images/vestidos/vestido_sara/vermelho.jpeg",
-            "/images/vestidos/vestido_sara/amarelo.jpeg",
+            "/images/vestidos/vestido_sara/preto.png",
+            "/images/vestidos/vestido_sara/branco.png",
+            "/images/vestidos/vestido_sara/vermelho.png",
+            "/images/vestidos/vestido_sara/amarelo.png",
         ],
         category: "Vestido",
         description: "Vestido Sara Varejo R$220,00  ",
