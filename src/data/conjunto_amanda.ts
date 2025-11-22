@@ -5,7 +5,7 @@ export const vestido_amanda: Product[] = [
   {
     id: 123,
     name: "Vestido Amanda",  // Nome sem tamanho
-    price: 190.00,
+    price: 220.00,
     images: [
       "/images/conjuntos/conjunto_amanda/branco.jpeg",
        "/images/conjuntos/conjunto_amanda/cores.jpeg",
