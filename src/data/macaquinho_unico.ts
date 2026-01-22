@@ -7,7 +7,7 @@ export const macaquinho: Product[] = [
     name: "Macaquinho",  // Nome sem tamanho
     price: 38.00,
     images: [
-      "/images/Macaquinho/macaquinho_cores.jpeg",
+      "/images/macaquinho/macaquinho_cores.jpeg",
       
     ],
     category: "macaquinho",
