@@ -7,7 +7,7 @@ export const blusa_estruturada: Product[] = [
     name: "Blusa Estruturada",  // Nome sem tamanho
     price: 75.00,
     images: [
-      "/images/Blusa/blusa_estruturada/blusa_estruturada.jpeg",
+      "/images/Blusa/blusa_estruturada/Blusa_estruturada.jpeg",
       
     ],
     category: "Blusas",
