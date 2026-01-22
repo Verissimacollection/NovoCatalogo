@@ -96,6 +96,8 @@ import { vestido_laise } from "./vestido_laise";
 import { vestido_Brisa_de_Verão } from "./vestido_brisa_de_verao";
 import { vestido_amanda } from "./conjunto_amanda";
 import { vestido_sara } from "./vestido_sara";
+import { blazer_premium } from "./blazer_premium";
+import { conjunto_alfaiataria_premium_1 } from "./conjunto_alfaiataria_premium_1";
 
 
 
@@ -109,6 +111,8 @@ import { vestido_sara } from "./vestido_sara";
 
 // Combinando todos os produtos
 export const products: Product[] = [
+  ...conjunto_alfaiataria_premium_1,
+  ...blazer_premium,
   ...vestido_sara,
   ...vestido_amanda,
   ...vestido_Brisa_de_Verão,
