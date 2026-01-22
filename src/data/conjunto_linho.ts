@@ -14,7 +14,7 @@ export const conjunto_linho: Product[] = [
     sku: "5656",
     inStock: true,
     colors: [
-      { color: "Off White", inStock: true },
+      { color: "Branco", inStock: true },
       { color: "Rosa Bebe", inStock: true },
       
 
