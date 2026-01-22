@@ -8,7 +8,7 @@ export const conjunto_alfaiataria_premium_2: Product[] = [
     price: 190.00,
     images: [
       
-      "/images/alfaiataria_premium/conjunto_premium_2/alfaiataria_cores.jpeg",
+      "/images/alfaiataria premium/conjunto_premium_2/alfaiataria_cores.jpeg",
       
     ],
     category: "Conjunto",
