@@ -7,7 +7,7 @@ export const blazer_premium: Product[] = [
         name: "Blazer Premium",  // Nome sem tamanho
         price: 190.00,
         images: [
-            "/images/Blazer/blazer_premium/cinza1.jpeg",
+            "/images/Blazer/blazer_premium/blazer_cores.jpeg",
             
 
 

@@ -7,8 +7,8 @@ export const conjunto_alfaiataria_premium_1: Product[] = [
     name: "Conjunto Alfaiataria Premuim 1",  // Nome sem tamanho
     price: 190.00,
     images: [
-      "/images/alfaiataria_premium/conjunto_premium_1/conjunto_preto.jpeg",
-      "/images/alfaiataria_premium/conjunto_premium_1/conjunto_cores.jpeg",
+      "/images/alfaiataria premium/conjunto_premium_1/conjunto_preto.jpeg",
+      "/images/alfaiataria premium/conjunto_premium_1/conjunto_cores.jpeg",
       
     ],
     category: "Conjunto",
