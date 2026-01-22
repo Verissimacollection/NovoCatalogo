@@ -102,7 +102,7 @@ const Cart = () => {
 
     message += "\n📞 Gostaria de finalizar este pedido!\nObrigado 😊";
 
-    const phoneNumber = "5511987962867";
+    const phoneNumber = "5513997969541";
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     
     const isInstagramWebView = /Instagram/.test(navigator.userAgent);
