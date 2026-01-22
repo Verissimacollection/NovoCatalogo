@@ -4,7 +4,7 @@ import { Product } from "@/interfaces/Product";
 export const conjunto_alfaiataria_premium_1: Product[] = [
   {
     id: 6600,
-    name: "Vestido Amanda",  // Nome sem tamanho
+    name: "Conjunto Alfaiataria Premuim 1",  // Nome sem tamanho
     price: 190.00,
     images: [
       "/images/alfaiataria_premium/conjunto_premium_1/preto.jpeg",
