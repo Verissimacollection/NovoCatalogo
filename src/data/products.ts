@@ -111,6 +111,7 @@ import { conjunto_roseli } from "./conjunto_roseli";
 import { camisa_tifanny } from "./camisa_tifanny";
 import { conjunto_daslu } from "./conjunto_daslu";
 import { camisa_flor_de_liz } from "./camisa_flor_de_liz";
+import { camisa_basica_meia_estacao } from "./camisa_basica_meia_estacao";
 
 
 
@@ -124,6 +125,7 @@ import { camisa_flor_de_liz } from "./camisa_flor_de_liz";
 
 // Combinando todos os produtos
 export const products: Product[] = [
+  ...camisa_basica_meia_estacao,
   ...camisa_flor_de_liz,
   ...conjunto_daslu,
   ...camisa_tifanny,
