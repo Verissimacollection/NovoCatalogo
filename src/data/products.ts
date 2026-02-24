@@ -122,6 +122,7 @@ import { blusa_estruturada } from "./blusa_estruturada";
 import { conjunto_alfaiataria_premium_2 } from "./conjunto_alfaiataria_premium_2";
 import { conjunto_alfaiataria_premium_1 } from "./conjunto_alfaiataria_premium_1";
 import { blazer_premium } from "./blazer_premium";
+import { blusa_feminina_drapeada_decote_transpassado } from "./blusa_feminina_drapeada_decote_transpassado";
 import { camisa_croped_feminina_bolso_frontal } from "./camisa_croped_feminina_bolso_frontal";
 
 
@@ -150,6 +151,7 @@ export const products: Product[] = [
   ...regata_basica,
   ...macaquinho,
   ...blusa_estruturada,
+  ...blusa_feminina_drapeada_decote_transpassado,
   ...conjunto_alfaiataria_premium_2,
   ...conjunto_alfaiataria_premium_1,
   ...blazer_premium,
