@@ -47,6 +47,7 @@ import { camisa_eli } from "./camisa_eli";
 import { blusa_alexia } from "./blusa_alexia";
 import { conjunto_lari } from "./conjunto_lari";
 import { blusa_modal_clara } from "./blusa_modal_clara";
+import { blusa_elegante_assimetrica } from "./blusa_elegante_assimetrica";
 import { blazer_verissima } from "./blazer_verissima";
 import { conjunto_sofy } from "./conjunto_sofy";
 import { conjunto_sonia } from "./conjunto_sonia";
@@ -100,6 +101,7 @@ import { vestido_sara } from "./vestido_sara";
 import { blazer_premium } from "./blazer_premium";
 import { conjunto_alfaiataria_premium_1 } from "./conjunto_alfaiataria_premium_1";
 import { conjunto_alfaiataria_premium_2 } from "./conjunto_alfaiataria_premium_2";
+import { conjunto_alfaiataria_risca_de_giz } from "./conjunto_alfaiataria_risca_de_giz";
 import { blusa_estruturada } from "./blusa_estruturada";
 import { macaquinho } from "./macaquinho_unico";
 import { regata_basica } from "./regata_basica";
@@ -147,6 +149,7 @@ export const products: Product[] = [
   ...blusa_feminina_drapeada_decote_transpassado,
   ...conjunto_alfaiataria_premium_2,
   ...conjunto_alfaiataria_premium_1,
+  ...conjunto_alfaiataria_risca_de_giz,
   ...blazer_premium,
   ...vestido_sara,
   ...vestido_amanda,
@@ -203,6 +206,7 @@ export const products: Product[] = [
   ...blusa_alexia,
   ...conjunto_lari,
   ...blusa_modal_clara,
+  ...blusa_elegante_assimetrica,
   ...blazer_verissima,
   ...conjunto_sofy,
   ...conjunto_sonia,
