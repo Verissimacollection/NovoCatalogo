@@ -109,6 +109,7 @@ import { cadivel } from "./cadivel";
 import { camisa_croped_linho } from "./camisa_croped_linho";
 import { conjunto_roseli } from "./conjunto_roseli";
 import { camisa_tifanny } from "./camisa_tifanny";
+import { conjunto_daslu } from "./conjunto_daslu";
 
 
 
@@ -122,6 +123,7 @@ import { camisa_tifanny } from "./camisa_tifanny";
 
 // Combinando todos os produtos
 export const products: Product[] = [
+  ...conjunto_daslu,
   ...camisa_tifanny,
   ...conjunto_roseli,
   ...camisa_croped_linho,
