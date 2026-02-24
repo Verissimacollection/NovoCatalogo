@@ -3,7 +3,7 @@ import { Product } from "@/interfaces/Product";
 // Produto novo seguindo o padrão dos demais
 export const macacao_leg: Product[] = [
   {
-    id: 1002,
+    id: 10002,
     name: "Macacão Leg", // Nome sem tamanho
     price: 180.0,
     images: [
