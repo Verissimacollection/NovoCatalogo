@@ -10,7 +10,7 @@ export const macacao_leg: Product[] = [
       // fotos de cada cor fornecidas pelo usuário
       "/images/macacao/macacao_leg/verde.jpeg",
       "/images/macacao/macacao_leg/marrom.jpeg",
-      "/images/macacao/macacao_leg/preto.jpeg",
+      "/images/macacao_leg/preto.jpeg",
       "/images/macacao/macacao_leg/marinho.jpeg",
       "/images/macacao/macacao_leg/cinza.jpeg",
       "/images/macacao/macacao_leg/nude.jpeg",
