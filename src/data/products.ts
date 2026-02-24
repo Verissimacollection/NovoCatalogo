@@ -115,6 +115,7 @@ import { camisa_croped_linho } from "./camisa_croped_linho";
 import { cadivel } from "./cadivel";
 import { blusa_feminina_drapeada_decote_transpassado } from "./blusa_feminina_drapeada_decote_transpassado";
 import { camisa_croped_feminina_bolso_frontal } from "./camisa_croped_feminina_bolso_frontal";
+import { camisa_croped_feminina_botoes_dourados } from "./camisa_croped_feminina_botoes_dourados";
 
 
 
@@ -135,6 +136,7 @@ export const products: Product[] = [
   ...conjunto_roseli,
   ...camisa_croped_linho,
   ...camisa_croped_feminina_bolso_frontal,
+  ...camisa_croped_feminina_botoes_dourados,
   ...cadivel,
   ...conjunto_linho,
   ...macaquinho_cinto,
