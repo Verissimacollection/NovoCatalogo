@@ -5,6 +5,7 @@ import { conjunto_mirela} from "./conjunto_mirela"
 import {macacao_solange} from "./macacao_solange"
 import {conjunto_juliana} from "./conjunto_juliana"
 import { macacao_mariana } from "./macacao_mariana";
+import { macacao_leg } from "./macacao_leg";
 import { conjunto_maisa } from "./conjunto_maisa";
 import { corta_vento } from "./corta_vento";
 import { conjunto_bea } from "./conjunto_bea";
@@ -161,6 +162,7 @@ export const products: Product[] = [
   ...regata_cetim,
   ...macacao_solange,
   ...macacao_mariana,
+  ...macacao_leg,
   ...corta_vento,
   ...vestido_helen,
   ...saia_couro_resinada,
