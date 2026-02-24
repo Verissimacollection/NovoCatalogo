@@ -107,6 +107,7 @@ import { macaquinho_cinto } from "./macaquinho_cinto";
 import { conjunto_linho } from "./conjunto_linho";
 import { cadivel } from "./cadivel";
 import { camisa_croped_linho } from "./camisa_croped_linho";
+import { conjunto_roseli } from "./conjunto_roseli";
 
 
 
@@ -120,6 +121,7 @@ import { camisa_croped_linho } from "./camisa_croped_linho";
 
 // Combinando todos os produtos
 export const products: Product[] = [
+  ...conjunto_roseli,
   ...camisa_croped_linho,
   ...cadivel,
   ...conjunto_linho,
