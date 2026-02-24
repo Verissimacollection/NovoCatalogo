@@ -113,15 +113,6 @@ import { camisa_tifanny } from "./camisa_tifanny";
 import { conjunto_roseli } from "./conjunto_roseli";
 import { camisa_croped_linho } from "./camisa_croped_linho";
 import { cadivel } from "./cadivel";
-import { conjunto_linho } from "./conjunto_linho";
-import { macaquinho_cinto } from "./macaquinho_cinto";
-import { camisa_flor } from "./camisa_flor";
-import { regata_basica } from "./regata_basica";
-import { macaquinho } from "./macaquinho_unico";
-import { blusa_estruturada } from "./blusa_estruturada";
-import { conjunto_alfaiataria_premium_2 } from "./conjunto_alfaiataria_premium_2";
-import { conjunto_alfaiataria_premium_1 } from "./conjunto_alfaiataria_premium_1";
-import { blazer_premium } from "./blazer_premium";
 import { blusa_feminina_drapeada_decote_transpassado } from "./blusa_feminina_drapeada_decote_transpassado";
 import { camisa_croped_feminina_bolso_frontal } from "./camisa_croped_feminina_bolso_frontal";
 
