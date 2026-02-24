@@ -7,7 +7,7 @@ export const camisa_flor_de_liz: Product[] = [
     name: "Camisa Flor de Liz",  // Nome sem tamanho
     price: 220.00,
     images: [
-      "/images/camisa_flor_de_liz/camisa_flor_de_liz.jpeg",
+      "/images/camisa_flor_de_liz/flor_de_liz.jpeg",
       
     ],
     category: "Camisas",
