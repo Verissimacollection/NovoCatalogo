@@ -105,6 +105,7 @@ import { regata_basica } from "./regata_basica";
 import { camisa_flor } from "./camisa_flor";
 import { macaquinho_cinto } from "./macaquinho_cinto";
 import { conjunto_linho } from "./conjunto_linho";
+import { cadivel } from "./cadivel";
 
 
 
@@ -118,6 +119,7 @@ import { conjunto_linho } from "./conjunto_linho";
 
 // Combinando todos os produtos
 export const products: Product[] = [
+  ...cadivel,
   ...conjunto_linho,
   ...macaquinho_cinto,
   ...camisa_flor,
