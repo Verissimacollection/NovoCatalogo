@@ -5,13 +5,13 @@ export const cadivel: Product[] = [
   {
     id: 5500,
     name: "Cadivel",  // Nome sem tamanho
-    price: 50.00,
+    price: 170.00,
     images: [
       "/images/cadivel/cadivelcores.jpeg",
       
     ],
     category: "Camisas",
-    description: "Camisa Eli Varejo R$70,00",
+    description: "Camisa Varejo R$190,00",
     sku: "300",
     inStock: true,
     colors: [
