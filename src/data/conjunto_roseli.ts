@@ -7,8 +7,8 @@ export const conjunto_roseli: Product[] = [
     name: "Conjunto Roseli",  // Nome sem tamanho
     price: 200.00,
     images: [
-      "/images/conunto roseli/bordo.jpeg",
-       "/images/conunto roseli/cores.jpeg",
+      "/images/conjunto roseli/bordo.jpeg",
+       "/images/conjunto roseli/cores.jpeg",
       
     ],
     category: "Conjuntos",
