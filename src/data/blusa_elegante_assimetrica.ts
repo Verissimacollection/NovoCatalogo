@@ -2,7 +2,7 @@ import { Product } from "@/interfaces/Product";
 
 export const blusa_elegante_assimetrica: Product[] = [
     {
-        id: 8001,
+        id: 8081,
         name: "Blusa Elegance Assimétrica",
         price: 85.00,
         images: [
