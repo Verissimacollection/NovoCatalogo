@@ -8,7 +8,7 @@ export const blusa_elegante_assimetrica: Product[] = [
         images: [
             "/images/blusa_elegante_assimetrica/WhatsApp Image 2026-02-12 at 21.56.04.jpeg",
         ],
-        category: "Blusa",
+        category: "Blusas",
         description: "Blusa Elegance Assimétrica R$85,00",
         sku: "8001",
         inStock: true,
