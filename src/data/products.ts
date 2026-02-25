@@ -124,6 +124,7 @@ import { cadivel } from "./cadivel";
 import { blusa_feminina_drapeada_decote_transpassado } from "./blusa_feminina_drapeada_decote_transpassado";
 import { camisa_croped_feminina_bolso_frontal } from "./camisa_croped_feminina_bolso_frontal";
 import { camisa_croped_feminina_botoes_dourados } from "./camisa_croped_feminina_botoes_dourados";
+import { calca_my_love } from "./calca_my_love";
 
 
 
@@ -137,6 +138,7 @@ import { camisa_croped_feminina_botoes_dourados } from "./camisa_croped_feminina
 
 // Combinando todos os produtos
 export const products: Product[] = [
+  ...calca_my_love,
   ...camisa_basica_meia_estacao,
   ...camisa_flor_de_liz,
   ...conjunto_daslu,
