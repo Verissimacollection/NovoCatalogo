@@ -39,6 +39,7 @@ import { conjunto_rafa } from "./conjunto_rafa";
 import { conjunto_mia_saia } from "./conjunto_mia_saia";
 import { conjunto_paris } from "./conjunto_paris";
 import { saia_max } from "./saia_max";
+import { saia_alfaiataria_chic } from "./saia_alfaiataria_chic";
 import { conjunto_sara } from "./conjunto_sara";
 import { conjunto_estelar } from "./conjunto_estelar";
 import { colete_keyla } from "./colete_keyla";
@@ -49,6 +50,8 @@ import { blusa_alexia } from "./blusa_alexia";
 import { conjunto_lari } from "./conjunto_lari";
 import { blusa_modal_clara } from "./blusa_modal_clara";
 import { blusa_elegante_assimetrica } from "./blusa_elegante_assimetrica";
+import { blusa_romantic_flow } from "./blusa_romantic_flow";
+import { blusa_gola_soft } from "./blusa_gola_soft";
 import { blazer_verissima } from "./blazer_verissima";
 import { conjunto_sofy } from "./conjunto_sofy";
 import { conjunto_sonia } from "./conjunto_sonia";
@@ -108,6 +111,8 @@ import { conjunto_alfaiataria_bella } from "./conjunto_alfaiataria_bella";
 import { conjunto_alfaiataria_risca_de_giz } from "./conjunto_alfaiataria_risca_de_giz";
 import { conjunto_alfaiataria_elegance } from "./conjunto_alfaiataria_elegance";
 import { conjunto_alfaiataria_classic_premium } from "./conjunto_alfaiataria_classic_premium";
+import { conjunto_alfaiataria_urban } from "./conjunto_alfaiataria_urban";
+import { conjunto_renda_sofisticata } from "./conjunto_renda_sofisticata";
 import { blusa_estruturada } from "./blusa_estruturada";
 import { macaquinho } from "./macaquinho_unico";
 import { regata_basica } from "./regata_basica";
@@ -162,6 +167,8 @@ export const products: Product[] = [
   ...conjunto_alfaiataria_bella,
   ...conjunto_alfaiataria_elegance,
   ...conjunto_alfaiataria_classic_premium,
+  ...conjunto_alfaiataria_urban,
+  ...conjunto_renda_sofisticata,
   ...blazer_premium,
   ...vestido_sara,
   ...vestido_amanda,
@@ -210,6 +217,7 @@ export const products: Product[] = [
   ...conjunto_mia_saia,
   ...conjunto_paris,
   ...saia_max,
+  ...saia_alfaiataria_chic,
   ...conjunto_sara,
   ...conjunto_estelar,
   ...colete_keyla,
@@ -220,6 +228,8 @@ export const products: Product[] = [
   ...conjunto_lari,
   ...blusa_modal_clara,
   ...blusa_elegante_assimetrica,
+  ...blusa_romantic_flow,
+  ...blusa_gola_soft,
   ...blazer_verissima,
   ...conjunto_sofy,
   ...conjunto_sonia,
